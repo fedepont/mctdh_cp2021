@@ -1,18 +1,18 @@
 
------- Host: "federico-X510UQR" ----------Wed Dec 22 16:54:48 2021
-             
- /home/federico/Dropbox/trabajo/estudiantes/martin/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
+------ Host: "mendez-famaf" ----------Tue Feb 15 15:17:29 2022
+
+ /home/mendez/MCTDH/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
 
 --------------------------------------------------------------------------------
 ****** Source code version ******
 
 Program Version :     8
 Release         :     5
-Revision        :     6
+Revision        :    14
 
-Heidelberg SVN repository no.: 839
-Checkin date: Fri, 25 Nov 2016, 15:40:21
-Compiled: Wed, 22 Dec 2021, 16:52:08 ; Host: federico-X510UQR
+Heidelberg SVN repository no.: 1312
+Checkin date: Wed, 23 Jun 2021, 13:43:30
+Compiled: Tue, 15 Feb 2022, 14:46:56 ; Host: mendez-famaf
 Program name: potfit85
 
 Included surfaces: lsth eff2dcou
@@ -20,7 +20,7 @@ Included surfaces: lsth eff2dcou
 
 
 ******* OPTIONS ******
--ww -mnd
+-ww -gd -mnd
 
 
 ***** Output files *****
@@ -31,20 +31,20 @@ timing     file opened
 
 ***** Paths and input files *****
 
-name   : /home/federico/Dropbox/trabajo/estudiantes/martin/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
+name   : /home/mendez/MCTDH/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
 
  ---------------------------------------------------------------------------
-Creating DVR file: /home/federico/Dropbox/trabajo/estudiantes/martin/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee/dvr
+Creating DVR file: /home/mendez/MCTDH/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee/dvr
  ---------------------------------------------------------------------------
 
 ***** Memory used in DVR basis generation *****
 
-Memory size (used / allocated) (in Mb):     14.218 /    545.440
+Memory size (used / allocated) (in Mb):     14.271 /    413.613
 
 ** Array dimensions **
 
 length of complex      array (used):           6          0.000 MB
-length of real         array (used):     1751005         13.359 MB
+length of real         array (used):     1758014         13.413 MB
 length of integer      array (used):           5          0.000 MB
 length of logical      array (used):           2          0.000 MB
 
@@ -56,31 +56,31 @@ total array memory in mb     (used):        13.4
 
  mode     kappa    DVR    N        xi         xf         dx       p-max
 
- X1           1    sin  500    -25.000     25.000   0.100200     31.291
- X2           2    sin  500    -25.000     25.000   0.100200     31.291
+ X1           1    sin  501    -25.000     25.000   0.100000     31.353
+ X2           2    sin  501    -25.000     25.000   0.100000     31.353
 
 ***** Memory used in PES FITTING  *****
 
-Memory size (used / allocated) (in Mb):      6.623 /    537.845
+Memory size (used / allocated) (in Mb):      6.646 /    405.988
 
 ** Array dimensions **
 
-length of real         array (used):      755501          5.764 MB
+length of real         array (used):      758515          5.787 MB
 
 total array memory in mb     (used):         5.8
 
-workdim1,2:     250000       251000,       3.82 Mb
-Buffer size:  niobuf =       250000,       1.91 Mb
-Grid size:   vpotdim =       250000,       1.91 Mb
+workdim1,2:     251001       252003,       3.84 Mb
+Buffer size:  niobuf =       251001,       1.91 Mb
+Grid size:   vpotdim =       251001,       1.91 Mb
 --------------------------------------------------------------------------------
 
   *** Memory allocated dynamically ***
- real*8     :      755501       5.76 MB
- workdim2   :      251000       1.92 MB
- coeffdim   :      250000       1.91 MB
- vvec       :      250000       1.91 MB
+ real*8     :      758515       5.79 MB
+ workdim2   :      252003       1.92 MB
+ coeffdim   :      251001       1.92 MB
+ vvec       :      251001       1.92 MB
  integer    :           1       0.00 MB
- Total   :       12052256. Bytes ,      11.49 MB
+ Total   :       12100384. Bytes ,      11.54 MB
 --------------------------------------------------------------------------------
 
 
@@ -99,29 +99,33 @@ Eff. Coulomb Coordinates
 z1    : X1              
 z2    : X2              
 
-Surface to be fitted : eff2dcou                        
+Surface to be fitted : eff2dcou
 max pes cut (ev) :       0.27211384E+22
 min pes cut (ev) :      -0.27211384E+22
 
 ----------------------------------------------------------------------------
- Creating VPOT file: /home/federico/Dropbox/trabajo/estudiantes/martin/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee/vpot
+ Creating VPOT file: /home/mendez/MCTDH/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee/vpot
 ----------------------------------------------------------------------------
-Buffer written. j1, j2 =         0   250000   Dec 22 16:54:49   CPU =      1.4
+Buffer written. j1, j2 =         0   251001   Feb 15 15:17:30   CPU =      0.6
 
 ----------------------------------------------------------------------------
- Starting First Fit.         Dec 22 16:54:49     CPU =       1.4
+ Starting First Fit.         Feb 15 15:17:30     CPU =       0.6
+----------------------------------------------------------------------------
+ Computing the SPPs.         Feb 15 15:17:30     CPU =       0.6
+ Computing the D-tensor.     Feb 15 15:17:30     CPU =       1.0
+ Computing the fit-error.    Feb 15 15:17:30     CPU =       1.0
 ----------------------------------------------------------------------------
 
 **** Reading VPOT file ****
-File version:  8.50060
+File version:  8.50140
 Created on:
------- Host: "federico-X510UQR" ----------Wed Dec 22 16:54:49 2021
-             
+------ Host: "mendez-famaf" ----------Tue Feb 15 15:17:30 2022
+
 
 ***** Overall Timing *****
 
-Total cpu time     [s] :          3.20
-Total time     [h:m:s] :    0 :  0 :  3.2
+Total cpu time     [s] :          1.34
+Total time     [h:m:s] :    0 :  0 :  1.3
 
 ***** God's final message *****
 
@@ -129,7 +133,7 @@ Program terminated normally.
 
 
  ------------------------------------------------------------------------------
- ------ Host: "federico-X510UQR" ----------Wed Dec 22 16:54:51 2021
-           
- /home/federico/Dropbox/trabajo/estudiantes/martin/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
+ ------ Host: "mendez-famaf" ----------Tue Feb 15 15:17:31 2022
+
+ /home/mendez/MCTDH/mctdh_cp2021/double_quantum_dot_model/qdot_02/potfit_Vee
  ------------------------------------------------------------------------------
